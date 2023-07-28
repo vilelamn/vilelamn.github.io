@@ -309,9 +309,20 @@ table, tr, th, td{
     }
     .contanier_2 h2{
     margin: 0 auto;
-    padding: 35px 0 0 0;
+    padding: 25px 0 0 0;
     font-size: 24px;
     text-align: center;
+}
+    .cardapio .nomepizza {
+    padding: 5px;
+    font-size: 15px;
+}
+.cardapio .precopizza{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;  
+}
 }
 /*
 @media (max-width: 360px) {
