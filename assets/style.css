@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Amatic SC', cursive; 
+}
+
+section{
+    min-height: 100vh;
+}
+
+/*Nav bar*/
+header{
+    overflow: hidden    ;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.navBar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+
+.logo {
+   font-size: 25px;
+   font-weight: 400;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link{
+    transition: 0.5s ease;
+}
+
+.nav-link:hover{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.hamburguer{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 28px;
+    height: 2px;
+    border: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/**/
+.container {
+    background: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;   
+    text-align: center !important;
+}
+
+.container h1 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 90px;
+    transform: translate(-50%, -50%);
+   
+}
+
+.container p{
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #000;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 5px 30px;
+    font-size: 24px !important;
+}
+
+.container .btn{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 25px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: red;
+    transition: all 0.3s ease;
+}
+/*Container_1 Sobre Nos */
+.contanier_1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(194, 20, 20);
+}
+.sobrenos h1{
+    color:#fff;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 60px;
+}
+.sobrenos p{
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+.sobrenos img{
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contanier_1 h2{
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 25px;
+}
+.collumn_1{
+    margin-left: 20%;
+}
+.collumn_1{
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    width: 50%;
+    padding: 12px;
+    height: 100px;
+    line-height: 1.6;
+}
+.collumn_2{
+    float: left;
+    font-size: 25px;
+    color: #fff;    
+    padding: 12px;
+    line-height: 1.6;
+}
+
+.row:after {
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*Container_2 Tabela*/
+.contanier_2{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #c00;
+}
+
+.contanier_2 h2{
+    margin: 0 auto;
+    padding: 65px 0 0 0;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;  
+}
+.contanier_2 .cardapio{
+    width: 80%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+table, tr, th, td{
+    color: #fff;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    background-color: #c00;
+}
+.cardapio i.nome{
+    font-size: 40px;
+}
+.cardapio th{
+    background-color: #c00;
+    font-size: 35px;
+    color: #fff;
+}
+.cardapio .preco{
+    width: 100px;
+    font-size: 35px;
+}
+
+.cardapio .nomepizza {
+    padding: 5px;
+    font-size: 30px;
+}
+.cardapio .precopizza{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;  
+}
+.contato{
+    background-color: rgb(194, 20, 20);
+    color:#fff;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.contato .titulo{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.contato p{
+    font-size: 30px;
+    padding: 15px;
+}
+
+.contato a{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+.rede ul{
+    list-style-type: none;
+    display: inline-flex;
+    letter-spacing: 5px;
+}
+
+
+/*Resposive*/
+/*nav bar */
+@media  (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .hamburguer{
+        display: block;
+    }
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);    
+    }
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);    
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 55px;
+        gap: 0;
+        border-radius: 0 0 20px 20px;
+        background-color: #000;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+}
+/*
+@media (max-width: 360px) {
+    .container{
+    background: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+
+@media (max-width: 220px) {
+    .container{
+    background: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    }
+}*/
