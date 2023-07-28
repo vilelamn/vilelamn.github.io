@@ -327,6 +327,10 @@ table, th, td{
     margin-left:5px;
     margin-right: 5px;
 }
+.collumn_1{
+    margin-left: 10%;
+    font-size: 10px;
+    }
 }
 /*
 @media (max-width: 360px) {
