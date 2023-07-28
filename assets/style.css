@@ -307,6 +307,11 @@ table, tr, th, td{
     .nav-menu.active{
         left: 0;
     }
+    .contanier_2 h2{
+    margin: 0 auto;
+    padding: 35px 0 0 0;
+    font-size: 24px;
+    text-align: center;
 }
 /*
 @media (max-width: 360px) {
