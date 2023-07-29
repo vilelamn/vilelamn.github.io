@@ -7,10 +7,7 @@
     box-sizing: border-box; 
     font-family: 'Amatic SC', cursive; 
 }
-body{
-    max-width: 800px;
-    min-width: 300px;
-}
+
 section{
     min-height: 100vh;
 }
