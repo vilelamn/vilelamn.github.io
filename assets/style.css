@@ -110,21 +110,16 @@ a {
 .container .btn{
     position: absolute;
     bottom: 10%;
-    left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     background-color: #000;
     opacity: 0.8;
     color: #fff;
     font-size: 25px;
     padding: 8px 15px;
-    border: none;
     cursor: pointer;
     border-radius: 10px;
-    text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-decoration: none;
 }
 
 .btn:hover{
@@ -270,6 +265,24 @@ table, tr, th, td{
     letter-spacing: 5px;
 }
 
+/*Footer*/
+footer{
+    background-color: #000;
+}
+footer h4{
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+.list {
+     text-align: center;
+     color: #fff;
+}
+.list li{
+    display: inline-flex;
+    padding: 0 10px;
+}
+
 
 /*Resposive*/
 /*nav bar */
@@ -307,29 +320,153 @@ table, tr, th, td{
     .nav-menu.active{
         left: 0;
     }
+    .container h1{
+        font-size: 2.5rem;
+        margin-top: 110px;
+    }
+    .container p{
+        padding: 8px 20px;
+        font-size: 1rem !important;
+    }
+    .container .btn{
+        font-size: 1.5rem;
+        bottom: 0;
+        transform: translate(160%, -25%);    
+    }
+    .sobrenos h1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .sobrenos p{
+        margin: 10px;
+        font-size: 22px;
+    }
+    .sobrenos .enderco{
+        font-size: 20px;
+    }
+    .contanier_1 h2{
+        font-size: 25px;
+    }
+    .collumn_1 {
+        font-size: 20px;
+        width: 40%;
+    }
+    .collumn_2 {
+        font-size: 20px;
+    }
     .contanier_2 h2{
-    margin: 0 auto;
-    padding: 25px 0 0 0;
-    font-size: 24px;
-    text-align: center;
-}
+        font-size: 40px;
+        padding: 40px 0 0 0;
+    }
+    .contanier_2 .cardapio {
+        width: 90%;
+    }
+    .cardapio th{
+        font-size: 30px;
+    }
+    .cardapio .preco {
+        width: 91px;
+        font-size: 30px;
+    }
+    .cardapio i.nome {
+        font-size: 25px;
+    }
     .cardapio .nomepizza {
-    padding: 5px;
-    font-size: 15px;
+        padding: 2px;
+        font-size: 22px;
+    }
+    .cardapio .precopizza {
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .contato .titulo {
+        font-size: 40px;
+     }
+    .contato p {
+        font-size: 25px;
+    }
+    .contato .item {
+        font-size: 22px;
+    }      
+    .rede li a{
+        font-size: 18px;
+    }  
 }
-.cardapio .precopizza{
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-weight: bold;  }
-table, th, td{
-    color: #fff;
-    margin-left:5px;
-    margin-right: 5px;
-}
-.collumn_1{
-    margin-left: 10%;
-    font-size: 10px;
+@media (max-width:370px){
+    .container{
+    width: 100%;
+    height: 100vh;
+    }
+    header{
+        position: inherit;
+    }
+    .nav-menu{
+        width: 100%;
+    }
+    .container h1 {
+        margin-top: 90px;
+    }
+    .container p{
+        left: 8px;
+        bottom: -55px;
+    }
+    .container .btn{
+        transform: translate(-50%, -50%);
+    }
+    .sobrenos p {
+        font-size: 15px;
+    }
+    .sobrenos img {
+        width: 60%;
+    }
+    .contanier_1 h2 {
+        font-size: 20px;
+    }
+    .collumn_1 {
+        font-size: 15px;
+        width: 32%;
+    }
+    .collumn_2 {
+        font-size: 15px;
+    }
+    .contanier_2 h2 {
+        font-size: 35px;
+        padding: 30px 0 0 0;
+    }
+    .contanier_2 .cardapio {
+        width: 100%;
+    }
+    .cardapio th {
+        font-size: 25px;
+    }
+    .cardapio .preco {
+        width: 50px;
+        font-size: 25px;
+    }
+    .cardapio i.nome {
+        font-size: 19px;
+    }
+    .cardapio .precopizza {
+        font-size: 9px;
+    }
+    .cardapio .nomepizza {
+        font-size: 14px;
+    }
+    .contato .titulo {
+        font-size: 30px;
+    }
+    .contato p {
+        font-size: 19px;
+    }
+    .contato .item {
+        font-size: 15px;
+    }
+    .contato a {
+        padding: 8px;
+    }
+    .rede li a {
+        font-size: 14px;
     }
 }
 /*
@@ -348,5 +485,4 @@ table, th, td{
     background-size: cover;
     width: 100vw;
     }
-}
-*/
+}*/
