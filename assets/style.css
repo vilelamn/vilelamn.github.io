@@ -8,11 +8,6 @@
     font-family: 'Amatic SC', cursive; 
 }
 
-section{
-    max-width: 768px;
-    min-widtn: 300px;
-}
-
 /*Nav bar*/
 header{
     overflow: hidden    ;
