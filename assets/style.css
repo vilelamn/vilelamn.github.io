@@ -390,7 +390,7 @@ footer h4{
     }  
 }
 
-@media (min-width:372px) or (min-with: 300px){
+@media (min-width:372px) {
     .container{
     width: 70%;
     height: 100vh;
@@ -414,9 +414,10 @@ footer h4{
     .sobrenos p {
         font-size: 15px;
     }
+    /*
     .sobrenos img {
         width: 50%;
-    }
+    }*/
     .contanier_1 h2 {
         font-size: 20px;
     }
