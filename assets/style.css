@@ -196,14 +196,13 @@ a {
     text-align: center;  
 }
 .contanier_2 .cardapio{
-    width: 80%;
+    width: 100%;
     background-color: #fff;
     margin-left: auto;
     margin-right: auto;
     
 }
 table, tr, th, td{
-    width: 100%;
     color: #fff;
     border: 1px solid #000;
     border-collapse: collapse;
