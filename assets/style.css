@@ -334,6 +334,9 @@ footer h4{
         bottom: 0;
         transform: translate(160%, -25%);    
     }
+    .container_1 img{
+        width: 100%;
+    }
     .sobrenos h1{
         font-size: 30px;
         padding-top: 15px;
