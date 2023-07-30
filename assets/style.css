@@ -393,9 +393,9 @@ footer h4{
     }  
 }
 
-@media (min-width:372px) {
+@media (min-width: 372px) or (min-width: 400px){
     .container{
-    width: 100%;
+    width: 50%;
     height: 100vh;
     }
     header{
@@ -417,10 +417,10 @@ footer h4{
     .sobrenos p {
         font-size: 15px;
     }
-    /*
+    
     .sobrenos img {
-        width: 50%;
-    }*/
+        width: 30%;
+    
     .contanier_1 h2 {
         font-size: 20px;
     }
