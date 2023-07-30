@@ -390,7 +390,7 @@ footer h4{
     }  
 }
 
-@media (min-width:372px) {
+@media (min-width:372px), (min-with: 300px){
     .container{
     width: 70%;
     height: 100vh;
