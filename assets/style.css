@@ -160,7 +160,7 @@ a {
 }
 .horario {
     display: flex;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
     justify-content: space-between;
 }
 
@@ -168,15 +168,15 @@ a {
     list-style-type: none;
 }
 .horario .horario1{
-    font-size: 15px;
+    font-size: 25px;
     color: #fff;
-    margin-left: 50px;
+    margin-left: 300px;
     text-align: center; 
 }
 .horario .horario2{
-    font-size: 15px;
+    font-size: 25px;
     color: #fff;
-    margin-right: 50px;
+    margin-right: 300px;
     text-align: center;
 }
 
@@ -197,7 +197,7 @@ a {
     text-align: center;  
 }
 .contanier_2 .cardapio{
-    width: 80%;
+    width: 90%;
     background-color: #fff;
     margin-left: auto;
     margin-right: auto;
@@ -209,6 +209,7 @@ table, tr, th, td{
     border-collapse: collapse;
     background-color: #c00;
 }
+
 .cardapio i.nome{
     font-size: 40px;
 }
@@ -368,15 +369,19 @@ footer h4{
         font-size: 20px;
         padding-top: 20px;
     }
-    .collumn_1 {
+    .horario .horario1{
         font-size: 15px;
-        padding: 10px;
-        margin-left: 25px;
-    } 
-    .collumn_2 {
-        font-size: 15px;
-        margin-left: 25px;
+        color: #fff;
+        margin-left: 50px;
+        text-align: center; 
     }
+    .horario .horario2{
+        font-size: 15px;
+        color: #fff;
+        margin-right: 50px;
+        text-align: center;
+    }
+   
     /*Cardapio */
     .contanier_2 {
         padding: 0px;
@@ -389,7 +394,7 @@ footer h4{
         font-size: 25px;
     }   
     .cardapio .preco {
-        width: 33px;
+        width: 35px;
         font-size: 15px;
     }
     .cardapio .nomepizza {
@@ -407,7 +412,8 @@ footer h4{
     }
     .contato .titulo {
         font-size: 30px;
-    } .contato p {
+    } 
+    .contato p {
         font-size: 20px;
         padding: 10px;
     }  
