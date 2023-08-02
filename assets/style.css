@@ -142,19 +142,32 @@ a {
     padding: 35px 0 15px 0;
 }
 .horario {
-    display: flex;
     padding: 15px 0 15px 0;
     justify-content: space-between;
 }
-.horario ul{
+.horario:after{
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+}
+.horario .horario1{
+    float: left;
     font-size: 25px;
-    list-style-type: none;
-    line-height: 1.4;
-    margin-left: 300px;
-    text-align: center; 
+    width: 50%;
+    padding: 12px;
+    height: 100px;
+    line-height: 1.6;
+}
+.horario1 {
+    margin-left: 20%;
 }
 .horario .horario2{
-    margin-right: 300px;
+    float: left;
+    font-size: 25px;
+    padding: 12px;
+    line-height: 1.6;
+    margin-right: 20px;
 }
 
 /*CARDAPIO*/
@@ -224,7 +237,7 @@ table, tr, th, td{
     padding: 15px;
 }
 .contato .telefone .item{
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: none;  
 }
 .contato .telefone .item i{
@@ -236,7 +249,7 @@ table, tr, th, td{
     letter-spacing: 15px;
 }
 .contato .rede .icon .fa{
-    font-size: 40px;
+    font-size: 35px;
 }       
 
 /*Footer*/
@@ -346,14 +359,14 @@ footer h4{
         padding-top: 20px;
     }
     .horario .horario1{
-        font-size: 15px;
-        margin-left: 50px;
-        text-align: center; 
+        width: 35%;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 13%;   
     }
     .horario .horario2{
-        font-size: 15px;
-        margin-right: 50px;
-        text-align: center;
+        font-size: 20px;
+        text-align: center;    
     }
    
     /*CARDAPIO*/
