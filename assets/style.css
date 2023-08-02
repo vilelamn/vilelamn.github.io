@@ -152,7 +152,7 @@ a {
 }
 .semana1{
     font-size: 25px;
-    padding: 12px;
+    padding: 12px 5px 12px 0;
     line-height: 1;
     text-align: center;
 }
