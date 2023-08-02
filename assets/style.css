@@ -8,29 +8,26 @@
     font-family: 'Amatic SC', cursive; 
 }
 
-n{
+section{
     min-height: 100vh;
 }
 
-/*Nav bar*/
+/*NAVBAR*/
 header{
     overflow: hidden;
     position: fixed;
     width: 100%;
     background-color: #000;
 }
-
 li {
     list-style: none;
 }
-
 a {
     color: #fff;
     text-decoration: none;
     font-size: 25px;
     font-weight: 400;
 }
-
 .navBar {
     min-height: 70px;
     display: flex;
@@ -38,35 +35,28 @@ a {
     justify-content: space-between;
     padding: 0 34px;
 }
-
 .logo {
    font-size: 25px;
    font-weight: 400;
 }
-
 .nav-menu {
     display: flex;
     align-items: center;
     gap: 60px;
-
 }
-
 .nav-link{
     transition: 0.5s ease;
 }
-
 .nav-link:hover{
     background-color: red;
     padding: 5px;
     border-radius: 5px;
     color: #fff;
 }
-
 .hamburguer{
     display: none;
     cursor: pointer;
 }
-
 .bar{
     display: block;
     width: 28px;
@@ -77,73 +67,63 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-/**/
+/*TOPO*/
 .container {
+    color: #fff;
     background: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100vh;   
+    background-position: center center;
+    width: 100%;   
     text-align: center !important;
 }
-
 .container h1 {
-    color: #fff;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    text-align: center;
     font-size: 90px;
-    transform: translate(-50%, -50%);
-   
+    margin: 12% 34% 32% 40%;
 }
-
 .container p{
-    color: #fff;
-    padding: 8px 16px;
-    background-color: #000;
     position: absolute;
+    font-size: 24px;
+    background-color: #000;
     left: 10px;
     bottom: 10px;
+    padding: 8px 16px;
     border-radius: 5px 15px;
-    font-size: 24px !important;
 }
-
 .container .btn{
     position: absolute;
+    font-size: 25px;
+    background-color: #000;
     bottom: 10%;
     transform: translate(-50%, -50%);
-    background-color: #000;
     opacity: 0.8;
-    color: #fff;
-    font-size: 25px;
     padding: 8px 15px;
-    cursor: pointer;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
 .btn:hover{
     background: red;
     transition: all 0.3s ease;
 }
-/*Container_1 Sobre Nos */
+
+/*SOBRE NOS */
 .contanier_1{
+    color: #fff;
     width: 100%;
-    
     background-color: rgb(194, 20, 20);
 }
-.sobrenos h1{
-    color:#fff;
+.contanier_1 .titulo{
+    font-size: 40px;
     text-align: center;
-    font-size: 35px;
-    padding-top: 60px;
+    padding-top: 65px;
 }
-.sobrenos p{
-    color: #fff;
-    text-align: center;
-    margin: 10px;
+.sobrenos .sobrenos_1{
     font-size: 30px;
+    text-align: justify;
+    margin: 5% 17% 3% 17%   
 }
 .sobrenos img{
     display: block;
@@ -151,81 +131,72 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
-.contanier_1 h2{
-    color: #fff;
-    font-size: 35px;
-    letter-spacing: 2px;
+.sobrenos .endereco{
     text-align: center;
-    padding-top: 25px;
+    margin: 2% 25% 2% 25%;
+    font-size: 30px;
+}
+.hour .hour1{
+    font-size: 35px;
+    text-align: center;
+    padding: 35px 0 15px 0;
 }
 .horario {
     display: flex;
     padding: 15px 0 15px 0;
     justify-content: space-between;
 }
-
 .horario ul{
-    list-style-type: none;
-}
-.horario .horario1{
     font-size: 25px;
-    color: #fff;
+    list-style-type: none;
+    line-height: 1.4;
     margin-left: 300px;
     text-align: center; 
 }
 .horario .horario2{
-    font-size: 25px;
-    color: #fff;
     margin-right: 300px;
-    text-align: center;
 }
 
-
-/*Container_2 Tabela*/
+/*CARDAPIO*/
 .contanier_2{
-    padding: 20px;
+    color: #fff;
     width: 100%;
     height: 100%;
+    padding: 20px;
     background-color: #c00;
 }
-
-.contanier_2 h2{
+.contanier_2 .titulo{
+    font-size: 40px;
+    text-align: center;  
     margin: 0 auto;
     padding: 65px 0 0 0;
-    color: #fff;
-    font-size: 50px;
-    text-align: center;  
 }
 .contanier_2 .cardapio{
     width: 90%;
-    background-color: #fff;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
+}
+table {
+    width: 100%;
+    background-color: #c00;
 }
 table, tr, th, td{
-    color: #fff;
     border: 1px solid #000;
     border-collapse: collapse;
-    background-color: #c00;
-}
-
-.cardapio i.nome{
-    font-size: 40px;
 }
 .cardapio th{
-    background-color: #c00;
-    font-size: 35px;
-    color: #fff;
+    font-size: 30px;
 }
 .cardapio .preco{
     width: 100px;
-    font-size: 35px;
-}
-
-.cardapio .nomepizza {
-    padding: 5px;
     font-size: 30px;
+}
+.cardapio i.nome{
+    font-size: 30px;
+}
+.cardapio .descricao {
+    font-size: 25px;
+    padding: 5px;   
 }
 .cardapio .precopizza{
     font-size: 20px;
@@ -233,35 +204,40 @@ table, tr, th, td{
     text-align: center;
     font-weight: bold;  
 }
+
+/* CONTATO */
 .contato{
     background-color: rgb(194, 20, 20);
     color:#fff;
     display: block;
     width: 100%;
+    height: 100vh;
     padding: 15px;
     text-align: center;
 }
-
 .contato .titulo{
-    font-size: 50px;
-    padding: 10px;
+    font-size: 40px;
+    padding: 65px 0 0 0;
 }
-
 .contato p{
     font-size: 30px;
     padding: 15px;
 }
-
-.contato a{
-    font-size: 25px;
-    text-decoration: none;
-    padding: 10px;
+.contato .telefone .item{
+    font-size: 35px;
+    text-decoration: none;  
 }
-.rede ul{
+.contato .telefone .item i{
+    padding: 12px;
+}
+.rede ul{ 
     list-style-type: none;
     display: inline-flex;
-    letter-spacing: 5px;
+    letter-spacing: 15px;
 }
+.contato .rede .icon .fa{
+    font-size: 40px;
+}       
 
 /*Footer*/
 footer{
@@ -286,7 +262,7 @@ footer h4{
 
 /* Dispositivos extra pequenos (telefones, 600px e abaixo)*/
 @media only screen and (max-width: 600px)  {
-    /*NAV BAR*/
+    /*NAVBAR*/
     .navBar {
         min-height: 50px;
         padding: 0px 13px;
@@ -326,86 +302,84 @@ footer h4{
         left: 0;
     } 
     
-    /*CONTAINER*/
+    /*TOPO*/
     .container h1{
         margin-top: -20px;
         font-size: 3rem;
     }
     .container {
-        background: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: center;
+        background-position-x: center center;
         width: 100%;
         height: 100vh;  
         text-align: center !important;
     }
     .container p {
       padding: 5px 15px;
-      bottom: 0px;
+      bottom: 30px;
       font-size: 15px !important;
     }
     .container .btn {
       bottom: 15%;
       font-size: 20px;
+      padding: 6px 15px;
     }
+
     /* SOBRENOS*/
     .contanier_1{
         height: 100%;
     }
-    .sobrenos h1 {
+    .contanier_1 .titulo{
         font-size: 30px;
-        padding-top: 15px;
+        padding-top: 80px;
     }
-    .sobrenos p {
+    .sobrenos .sobrenos_1{
         margin: 8px;
         font-size: 20px;
     }
     .sobrenos img {
         width: 70%;
     }
-    .contanier_1 h2 {
+    .sobrenos .endereco{
         font-size: 20px;
         padding-top: 20px;
     }
     .horario .horario1{
         font-size: 15px;
-        color: #fff;
         margin-left: 50px;
         text-align: center; 
     }
     .horario .horario2{
         font-size: 15px;
-        color: #fff;
         margin-right: 50px;
         text-align: center;
     }
    
-    /*Cardapio */
+    /*CARDAPIO*/
     .contanier_2 {
         padding: 0px;
     }
-    .contanier_2 h2 {
+    .contanier_2 .titulo{
         padding: 5px 0 0 0;
         font-size: 30px;
     } 
-    .cardapio th {
-        font-size: 25px;
-    }   
     .cardapio .preco {
         width: 35px;
         font-size: 15px;
     }
-    .cardapio .nomepizza {
-        padding: 1px;
-        font-size: 13px;
-    }
     .cardapio i.nome {
         font-size: 15px;
+    }
+    .cardapio .descricao {
+        padding: 1px;
+        font-size: 13px;
     }
     .cardapio .precopizza {
         font-size: 8px;
     }
+
+    /*CONTATO*/
     .contato {
         padding: 5px;
     }
@@ -418,7 +392,8 @@ footer h4{
     }  
     .contato a {
         font-size: 15px;
-        padding: 5px;
-    }  
-   
+    } 
+    .contato .rede .icon .fa{
+        font-size: 12px;
+    }   
 }
