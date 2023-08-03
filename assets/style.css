@@ -347,9 +347,10 @@ footer h4{
         display: flex;
     }
     .horario{
-        font-size: 8px;
+        font-size: 12px;
+        text-algin:center;
         flex: 50%;
-        margin-left: 50px;
+        margin-left: 70px;
         widtn: 100px;
     }
  
