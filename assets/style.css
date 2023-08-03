@@ -140,27 +140,16 @@ a {
     text-align: center;
     padding: 35px 0 15px 0;
 }
-.horario {
-    display: block;
-    padding: 15px 0 15px 0;
-    justify-content: space-between;
-    align-items: center;
+.row{
+    display: flex;
 }
-.horario .horario1{
-    float: left;
-    margin-left: 25%;  
-}
-.semana1{
-    font-size: 25px;
-    padding: 12px 5px 12px 0;
-    line-height: 1;
-    text-align: center;
-}
-.semana2{
-    font-size: 25px;
-    padding: 12px;
-    line-height: 1;
-    text-align: center;
+
+.horario{
+   font-size: 12px;
+   text-align: center;
+   list-style-type: none;
+   flex: 50%;
+   padding: 2px;
 }
 
 /*CARDAPIO*/
