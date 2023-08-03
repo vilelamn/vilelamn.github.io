@@ -343,21 +343,7 @@ footer h4{
     .hour1{
         text-align: center;
     }
-    .horario{
-        align-items: center;
-    }
-    .horario .horario1{
-        float: left;
-        margin-left: 13%;  
-    }
-    .semana1{
-        font-size: 20px;
-        text-align: justify;
-        
-    }
-    .semana2{
-        font-size: 20px;
-    }
+ 
    
     /*CARDAPIO*/
     .contanier_2 {
