@@ -343,6 +343,10 @@ footer h4{
     .hour1{
         text-align: center;
     }
+    .horario{
+        font-size: 8px;
+        flex: 20%;
+    }
  
    
     /*CARDAPIO*/
