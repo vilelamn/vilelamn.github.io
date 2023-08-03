@@ -260,7 +260,7 @@ footer h4{
 @media only screen and (max-width: 600px)  {
     /*NAVBAR*/
     .navBar {
-        min-height: 50px;
+        min-height: 40px;
         padding: 0px 13px;
     }
     .hamburguer{
@@ -291,7 +291,7 @@ footer h4{
     }
     .nav-item{
         display: inline-flex;
-        margin-left: 5px;
+        margin-left: 8px;
         
     }
     .nav-menu.active{
