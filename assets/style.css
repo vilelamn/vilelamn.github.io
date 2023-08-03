@@ -381,6 +381,7 @@ footer h4{
 
     /*CONTATO*/
     .contato {
+        heigth: 100%;
         padding: 5px;
     }
     .contato .titulo {
