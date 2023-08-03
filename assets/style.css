@@ -145,10 +145,11 @@ a {
 }
 
 .horario{
-   font-size: 12px;
+   font-size: 15px;
    text-align: center;
    list-style-type: none;
    flex: 50%;
+   margin-left: 100px;
    padding: 2px;
 }
 
