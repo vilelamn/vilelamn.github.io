@@ -15,7 +15,7 @@ section{
 .topnav {
     overflow: hidden;
     background-color: #333;
-  } 
+} 
 .topnav a {
     float: left;
     display: block;
@@ -232,8 +232,6 @@ footer h4{
     display: inline-flex;
     padding: 0 10px;
 }
-
-
 /*Resposive*/
 
 /* Dispositivos extra pequenos (telefones, 600px e abaixo)*/
