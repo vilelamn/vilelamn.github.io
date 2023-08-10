@@ -230,7 +230,9 @@ footer h4{
 /* Dispositivos extra pequenos (telefones, 600px e abaixo)*/
 @media only screen and (max-width: 600px)  {
     /*NAVBAR*/
-    
+        .topnav{
+            border-radius: 25px;
+        }
         .topnav a {
             font-size: 15px;
         }
